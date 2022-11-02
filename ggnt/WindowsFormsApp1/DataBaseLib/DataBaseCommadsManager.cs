@@ -25,7 +25,7 @@ public class DataBaseCommadsManager
             case "Ученики": command = new Table1Commands();
                 break;
             default: throw new Exception("Ошибка!");
-        }        
+        }
         command.Insert(args);
     }
 

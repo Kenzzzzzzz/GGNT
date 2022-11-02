@@ -32,9 +32,9 @@ namespace WindowsFormsApp1.DataBaseEditor
             args[0] = textBox1.Text;
             args[1] = textBox2.Text;
             args[2] = textBox3.Text;
-            args[3] = textBox3.Text;
-            args[4] = textBox3.Text;
-            args[5] = textBox3.Text;
+            args[3] = textBox4.Text;
+            args[4] = textBox5.Text;
+            args[5] = textBox6.Text;
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
             manager.Insert(args, _tableName);
@@ -47,9 +47,9 @@ namespace WindowsFormsApp1.DataBaseEditor
             args[0] = textBox1.Text;
             args[1] = textBox2.Text;
             args[2] = textBox3.Text;
-            args[3] = textBox3.Text;
-            args[4] = textBox3.Text;
-            args[5] = textBox3.Text;
+            args[3] = textBox4.Text;
+            args[4] = textBox5.Text;
+            args[5] = textBox6.Text;
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
             manager.Delete(args, _tableName);
@@ -62,9 +62,9 @@ namespace WindowsFormsApp1.DataBaseEditor
             args[0] = textBox1.Text;
             args[1] = textBox2.Text;
             args[2] = textBox3.Text;
-            args[3] = textBox3.Text;
-            args[4] = textBox3.Text;
-            args[5] = textBox3.Text;
+            args[3] = textBox4.Text;
+            args[4] = textBox5.Text;
+            args[5] = textBox6.Text;
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
             manager.Update(args, _tableName);

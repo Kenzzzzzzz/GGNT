@@ -30,17 +30,17 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnInsert = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -61,17 +61,17 @@
             this.dataGridView1.Size = new System.Drawing.Size(645, 470);
             this.dataGridView1.TabIndex = 0;
             // 
-            // button1
+            // BtnInsert
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(681, 282);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(397, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Добавить запись";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.BtnInsert_Click);
+            this.BtnInsert.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnInsert.Location = new System.Drawing.Point(681, 282);
+            this.BtnInsert.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnInsert.Name = "BtnInsert";
+            this.BtnInsert.Size = new System.Drawing.Size(397, 33);
+            this.BtnInsert.TabIndex = 1;
+            this.BtnInsert.Text = "Добавить запись";
+            this.BtnInsert.UseVisualStyleBackColor = true;
+            this.BtnInsert.Click += new System.EventHandler(this.BtnInsert_Click);
             // 
             // label1
             // 
@@ -130,17 +130,17 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Классух";
             // 
-            // button2
+            // BtnDelete
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(679, 319);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(397, 33);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.BtnDelete_Click);
+            this.BtnDelete.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnDelete.Location = new System.Drawing.Point(679, 319);
+            this.BtnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(397, 33);
+            this.BtnDelete.TabIndex = 8;
+            this.BtnDelete.Text = "Удалить";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // button3
             // 
@@ -164,17 +164,17 @@
             this.button4.Text = "Выйти из режима редактирования";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // BtnUpdate
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(679, 430);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(397, 33);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Изменить";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.BtnUpdate_Click);
+            this.BtnUpdate.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnUpdate.Location = new System.Drawing.Point(679, 430);
+            this.BtnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(397, 33);
+            this.BtnUpdate.TabIndex = 11;
+            this.BtnUpdate.Text = "Изменить";
+            this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // textBox4
             // 
@@ -244,17 +244,17 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnInsert);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormEditorTable1";
@@ -269,17 +269,17 @@
         #endregion
 
         private DataGridView dataGridView1;
-        private Button button1;
+        private Button BtnInsert;
         private Label label1;
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label2;
         private TextBox textBox3;
         private Label label3;
-        private Button button2;
+        private Button BtnDelete;
         private Button button3;
         private Button button4;
-        private Button button5;
+        private Button BtnUpdate;
         private TextBox textBox4;
         private Label label4;
         private TextBox textBox5;
