@@ -11,7 +11,7 @@ namespace DataBaseLib.Commands
     {
         public void Select(string[] args);
         public void Insert(string[] args);
-        public void Delete(string[] args);
+        public void Delete(int args);
         public void Update(string[] args);
 
     }

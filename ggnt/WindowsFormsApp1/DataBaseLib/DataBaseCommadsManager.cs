@@ -9,7 +9,7 @@ namespace DataBaseLib;
 /// </summary>
 public class DataBaseCommadsManager
 {
-
+    public DataBaseCommadsManager manager { get; set; }
 
     public DataTable GetDataTable(string tableName)
     {
@@ -41,7 +41,7 @@ public class DataBaseCommadsManager
         command.Update(args);
     }
 
-    public void Delete(string[] args, string tabelName)
+    public void Delete(int number, string tabelName)
     {
         ITableEditorCommand command;
         switch(tabelName)
@@ -50,7 +50,7 @@ public class DataBaseCommadsManager
                 break;
             default: throw new Exception("Ошибка!");
         }
-        command.Delete(args);
+        command.Delete(number);
     }
     // Домашнее задание
     // 1. Дописать логику методов Update, Delete

@@ -21,9 +21,7 @@ namespace DataBaseLib.Commands
 
         public void Insert(string[] args)
         {            
-            string query = $"INSERT INTO [Ученики] " +
-                    $"([Номер ученика], [ФИО], [Класс], [Классух], [Тариф], [День учебы])" +
-                    $"VALUES ('{args[0]}', '{args[1]}', '{args[2]}', '{args[3]}', '{args[4]}', {args[5]})";
+            string query = $"INSERT INTO [Ученики] ([ФИО],[Класс],[ID Классух],[ID Тариф]) VALUES ('{args[1]}','{args[2]}',{args[3]}, {args[4]})";
             controller.ExecuteCommand(query);
         }
 
@@ -38,15 +36,11 @@ namespace DataBaseLib.Commands
              */
         }
 
-        public void Delete(string[] args)
+        public void Delete(int number)
         {
-            // дома
-            /*
-             string query = $"DELETE FROM [Категории] " +
-                    $"WHERE [ID] = {id}";
-             */
+            string query = $"DELETE FROM [Ученики] WHERE [Номер ученика] = " + number;
+            controller.ExecuteCommand(query);
         }
-
 
     }
 }

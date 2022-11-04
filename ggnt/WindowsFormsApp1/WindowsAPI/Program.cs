@@ -1,3 +1,4 @@
+using WindowsAPI.DataBaseEditor;
 using WindowsFormsApp1.DataBaseEditor;
 namespace WindowsAPI;
 
@@ -13,6 +14,12 @@ internal static class Program
         // To customize application configuration such as set high DPI settings or default font,
         // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
-        Application.Run(new FormEditorTable1());
+        Application.Run(new MainMenu());
+    }
+    public static void Initialize()
+    {
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.SetHighDpiMode(HighDpiMode.SystemAware);
     }
 }

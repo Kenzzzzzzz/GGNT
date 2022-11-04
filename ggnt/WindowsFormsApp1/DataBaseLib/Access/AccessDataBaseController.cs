@@ -9,7 +9,7 @@ namespace DataBaseLib.Access;
 /// </summary>
 internal class AccessDataBaseController
 {
-    private string _connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=OnlineSchols.accdb";
+    private string _connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=OnlineSchols.mdb";
     
     /// <summary>
     /// Возвращает виртуальную таблицу по SQL-запросу из БД Access
@@ -38,16 +38,9 @@ internal class AccessDataBaseController
     {
         using (OleDbConnection connection = new OleDbConnection(_connectionString))
         {
-            try
-            {
-                connection.Open();
-                OleDbCommand command = new OleDbCommand(query, connection);
-                command.ExecuteNonQuery();
-            }
-            catch
-            {
-                throw new Exception("Соединение не было установлено!");
-            }
+            connection.Open();
+            OleDbCommand command = new OleDbCommand(query, connection);
+            command.ExecuteNonQuery();
         }
     }
 }

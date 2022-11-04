@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataBaseLib;
+using WindowsAPI.DataBaseEditor;
 
 namespace WindowsFormsApp1.DataBaseEditor
 {
@@ -29,45 +30,42 @@ namespace WindowsFormsApp1.DataBaseEditor
         private void BtnInsert_Click(object sender, EventArgs e)
         {
             string[] args = new string[5];
-            args[0] = textBox1.Text;
-            args[1] = textBox2.Text;
-            args[2] = textBox3.Text;
-            args[3] = textBox4.Text;
+            args[1] = textBox1.Text;
+            args[2] = textBox2.Text;
+            args[3] = textBox3.Text;
             args[4] = textBox5.Text;
-            args[5] = textBox6.Text;
 
-            DataBaseCommadsManager manager = new DataBaseCommadsManager();
+            DataBaseCommadsManager manager  = new DataBaseCommadsManager();
             manager.Insert(args, _tableName);
         }
 
         private void BtnDelete_Click(object sender, EventArgs e)
         {
-            // дома
-            string[] args = new string[5];
-            args[0] = textBox1.Text;
-            args[1] = textBox2.Text;
-            args[2] = textBox3.Text;
-            args[3] = textBox4.Text;
-            args[4] = textBox5.Text;
-            args[5] = textBox6.Text;
+            int number = Convert.ToInt32(textBox4.Text);
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
-            manager.Delete(args, _tableName);
+            manager.Delete(number, _tableName);
         }
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
             // дома
-            string[] args = new string[5];
-            args[0] = textBox1.Text;
-            args[1] = textBox2.Text;
-            args[2] = textBox3.Text;
-            args[3] = textBox4.Text;
-            args[4] = textBox5.Text;
-            args[5] = textBox6.Text;
+            string[] args = new string[7];
+            args[1] = textBox1.Text;
+            args[2] = textBox2.Text;
+            args[3] = textBox3.Text;
+            args[4] = textBox4.Text;
+            args[5] = textBox5.Text;
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
             manager.Update(args, _tableName);
+        }
+
+        private void Main_Menu_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
         }
     }
 }
