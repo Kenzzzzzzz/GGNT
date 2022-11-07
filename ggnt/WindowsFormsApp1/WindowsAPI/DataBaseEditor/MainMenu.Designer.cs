@@ -174,7 +174,7 @@
             this.Controls.Add(this.label2);
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainMenu";
+            this.Text = "Главное меню";
             this.ResumeLayout(false);
             this.PerformLayout();
 

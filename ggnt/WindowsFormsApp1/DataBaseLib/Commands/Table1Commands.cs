@@ -21,19 +21,13 @@ namespace DataBaseLib.Commands
 
         public void Insert(string[] args)
         {            
-            string query = $"INSERT INTO [Ученики] ([ФИО],[Класс],[ID Классух],[ID Тариф]) VALUES ('{args[1]}','{args[2]}',{args[3]}, {args[4]})";
+            string query = $"INSERT INTO [Ученики] ([ФИО],[Класс],[ID Классух],[ID Тариф]) VALUES ('{args[0]}','{args[1]}',{args[2]}, {args[3]})";
             controller.ExecuteCommand(query);
         }
 
         public void Update(string[] args)
         {
-            // дома
 
-            /*
-             string query = $"UPDATE [Категории] SET [Категория товара] = '{type}', " +
-                    $"[Скидка %] = {discount} " +
-                    $"WHERE [ID] = {id}";
-             */
         }
 
         public void Delete(int number)

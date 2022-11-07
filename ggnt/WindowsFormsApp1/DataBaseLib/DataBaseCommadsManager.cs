@@ -24,6 +24,18 @@ public class DataBaseCommadsManager
         {
             case "Ученики": command = new Table1Commands();
                 break;
+            case "Тарифы":
+                command = new TarifCommand();
+                break;
+            case "Преподователя":
+                command = new TeacharCommand();
+                break;
+            case "Классы":
+                command = new classsCommand();
+                break;
+            case "Расписание":
+                command = new ScheduleCommand();
+                break;
             default: throw new Exception("Ошибка!");
         }
         command.Insert(args);
@@ -34,9 +46,22 @@ public class DataBaseCommadsManager
         ITableEditorCommand command;
         switch(tabeleName)
         {
-            case "Ученики" : command = new Table1Commands();
+            case "Ученики":
+                command = new Table1Commands();
                 break;
-            default: throw new Exception("ошибка!");
+            case "Тарифы":
+                command = new TarifCommand();
+                break;
+            case "Преподователя":
+                command = new TeacharCommand();
+                break;
+            case "Классы":
+                command = new classsCommand();
+                break;
+            case "Расписание":
+                command = new ScheduleCommand();
+                break;
+            default: throw new Exception("Ошибка!");
         }
         command.Update(args);
     }
@@ -46,11 +71,48 @@ public class DataBaseCommadsManager
         ITableEditorCommand command;
         switch(tabelName)
         {
-            case "Ученики": command = new Table1Commands();
+            case "Ученики":
+                command = new Table1Commands();
+                break;
+            case "Тарифы":
+                command = new TarifCommand();
+                break;
+            case "Преподователя":
+                command = new TeacharCommand();
+                break;
+            case "Классы":
+                command = new classsCommand();
+                break;
+            case "Расписание":
+                command = new ScheduleCommand();
+                break;
+            default: throw new Exception("Ошибка");
+        }
+        command.Delete(number);
+    }
+    public void Select(string[] args, string tabeleName)
+    {
+        ITableEditorCommand command;
+        switch (tabeleName)
+        {
+            case "Ученики":
+                command = new Table1Commands();
+                break;
+            case "Тарифы":
+                command = new TarifCommand();
+                break;
+            case "Преподователя":
+                command = new TeacharCommand();
+                break;
+            case "Классы":
+                command = new classsCommand();
+                break;
+            case "Расписание":
+                command = new ScheduleCommand();
                 break;
             default: throw new Exception("Ошибка!");
         }
-        command.Delete(number);
+        command.Select(args);
     }
     // Домашнее задание
     // 1. Дописать логику методов Update, Delete

@@ -102,6 +102,7 @@
             this.btn_Update.TabIndex = 36;
             this.btn_Update.Text = "Изменить";
             this.btn_Update.UseVisualStyleBackColor = true;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // btn_Select
             // 
@@ -112,6 +113,7 @@
             this.btn_Select.TabIndex = 35;
             this.btn_Select.Text = "Редактировать";
             this.btn_Select.UseVisualStyleBackColor = true;
+            this.btn_Select.Click += new System.EventHandler(this.btn_Select_Click);
             // 
             // btn_Delete
             // 
@@ -122,6 +124,7 @@
             this.btn_Delete.TabIndex = 34;
             this.btn_Delete.Text = "Удалить";
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Insert
             // 
@@ -132,6 +135,7 @@
             this.btn_Insert.TabIndex = 33;
             this.btn_Insert.Text = "Добавить";
             this.btn_Insert.UseVisualStyleBackColor = true;
+            this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // label3
             // 
@@ -193,7 +197,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Schedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Schedule";
+            this.Text = "Расписание";
+            this.Load += new System.EventHandler(this.Schedule_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

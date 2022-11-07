@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "96B3qHaxfiiMH6v17ur8ftoDr+b3kiAh1elG5VZYojWyVLSgJzSiVYC2/NUsoebdyKr9XgipJyGo4OS5qIAI5A==",
+  "dgSpecHash": "OZCPbmaOVKPzn/vlLi6/Y967HWUB6xob4N8jPlAr5wOF8rPie5AFPNQ+69NCRIDoydRRLJfrId/DZe6BfIKQcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
+  "projectFilePath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79023\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\79023\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.116\\stub.system.data.sqlite.core.netstandard.1.0.116.nupkg.sha512",

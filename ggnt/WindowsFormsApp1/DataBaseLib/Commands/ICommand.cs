@@ -15,4 +15,13 @@ namespace DataBaseLib.Commands
         public void Update(string[] args);
 
     }
+
+    internal interface ItabelEditingCommands
+    {
+        public void Delete(string[] args,int number);
+
+        public void Insert(string[] args);
+
+        public void Update(string[] args);
+    }
 }

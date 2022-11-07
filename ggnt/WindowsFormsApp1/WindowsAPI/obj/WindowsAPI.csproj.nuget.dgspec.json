@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj": {}
+    "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj": {
+    "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
+        "projectUniqueName": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
         "projectName": "DataBaseLib",
-        "projectPath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
+        "projectPath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj",
         "packagesPath": "C:\\Users\\79023\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\obj\\",
+        "outputPath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj": {
+    "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
         "projectName": "WindowsAPI",
-        "projectPath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
+        "projectPath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
         "packagesPath": "C:\\Users\\79023\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\obj\\",
+        "outputPath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj": {
-                "projectPath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj"
+              "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj": {
+                "projectPath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\DataBaseLib\\DataBaseLib.csproj"
               }
             }
           }

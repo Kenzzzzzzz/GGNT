@@ -22,3 +22,15 @@ C:\Users\79023\Desktop\ggnt\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\Da
 C:\Users\79023\Desktop\ggnt\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\refint\DataBaseLib.dll
 C:\Users\79023\Desktop\ggnt\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.pdb
 C:\Users\79023\Desktop\ggnt\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\ref\DataBaseLib.dll
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\bin\x64\Debug\net6.0\DataBaseLib.deps.json
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\bin\x64\Debug\net6.0\DataBaseLib.dll
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\bin\x64\Debug\net6.0\DataBaseLib.pdb
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.csproj.AssemblyReference.cache
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.AssemblyInfoInputs.cache
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.AssemblyInfo.cs
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.csproj.CoreCompileInputs.cache
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.dll
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\refint\DataBaseLib.dll
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\DataBaseLib.pdb
+C:\Users\79023\Desktop\WindowsFormsApp1\DataBaseLib\obj\x64\Debug\net6.0\ref\DataBaseLib.dll

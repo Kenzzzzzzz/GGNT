@@ -24,7 +24,7 @@ internal class AccessDataBaseController
         {
             connection.Open();
             OleDbDataAdapter adapter = new OleDbDataAdapter(query, connection);
-            adapter.Fill(table); 
+            adapter.Fill(table);
         }
         return table;
     }
@@ -38,9 +38,16 @@ internal class AccessDataBaseController
     {
         using (OleDbConnection connection = new OleDbConnection(_connectionString))
         {
-            connection.Open();
-            OleDbCommand command = new OleDbCommand(query, connection);
-            command.ExecuteNonQuery();
+            try
+            {
+                connection.Open();
+                OleDbCommand command = new OleDbCommand(query, connection);
+                command.ExecuteNonQuery();
+            }
+            catch
+            {
+                new Exception("Ошибка");
+            }
         }
     }
 }

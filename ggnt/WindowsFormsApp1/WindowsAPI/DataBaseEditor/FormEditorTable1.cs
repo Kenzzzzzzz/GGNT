@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataBaseLib;
 using WindowsAPI.DataBaseEditor;
+using WindowsAPI.EditingMode;
 
 namespace WindowsFormsApp1.DataBaseEditor
 {
@@ -29,14 +30,18 @@ namespace WindowsFormsApp1.DataBaseEditor
 
         private void BtnInsert_Click(object sender, EventArgs e)
         {
-            string[] args = new string[5];
-            args[1] = textBox1.Text;
-            args[2] = textBox2.Text;
-            args[3] = textBox3.Text;
-            args[4] = textBox5.Text;
+            string[] args = new string[4];
+            args[0] = textBox1.Text;
+            args[1] = textBox2.Text;
+            args[2] = textBox3.Text;
+            args[3] = textBox5.Text;
 
             DataBaseCommadsManager manager  = new DataBaseCommadsManager();
             manager.Insert(args, _tableName);
+
+            this.Hide();
+            FormEditorTable1 form = new FormEditorTable1();
+            form.Show();
         }
 
         private void BtnDelete_Click(object sender, EventArgs e)
@@ -45,20 +50,15 @@ namespace WindowsFormsApp1.DataBaseEditor
 
             DataBaseCommadsManager manager = new DataBaseCommadsManager();
             manager.Delete(number, _tableName);
+
+            this.Hide();
+            FormEditorTable1 form = new FormEditorTable1();
+            form.Show();
         }
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            // дома
-            string[] args = new string[7];
-            args[1] = textBox1.Text;
-            args[2] = textBox2.Text;
-            args[3] = textBox3.Text;
-            args[4] = textBox4.Text;
-            args[5] = textBox5.Text;
 
-            DataBaseCommadsManager manager = new DataBaseCommadsManager();
-            manager.Update(args, _tableName);
         }
 
         private void Main_Menu_Click(object sender, EventArgs e)
@@ -66,6 +66,14 @@ namespace WindowsFormsApp1.DataBaseEditor
             this.Hide();
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            EditingModeTabel1 editingModeTabel1 = new EditingModeTabel1();
+            editingModeTabel1.Show();
         }
     }
 }

@@ -150,6 +150,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Режим редактирования";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // BtnUpdate
             // 
@@ -235,7 +236,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormEditorTable1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Table1";
+            this.Text = "Ученики";
             this.Load += new System.EventHandler(this.Table1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

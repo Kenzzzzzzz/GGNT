@@ -62,6 +62,7 @@
             this.btn_Update.TabIndex = 40;
             this.btn_Update.Text = "Изменить";
             this.btn_Update.UseVisualStyleBackColor = true;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // btn_Select
             // 
@@ -72,6 +73,7 @@
             this.btn_Select.TabIndex = 39;
             this.btn_Select.Text = "Редактировать";
             this.btn_Select.UseVisualStyleBackColor = true;
+            this.btn_Select.Click += new System.EventHandler(this.btn_Select_Click);
             // 
             // btn_Delete
             // 
@@ -82,6 +84,7 @@
             this.btn_Delete.TabIndex = 38;
             this.btn_Delete.Text = "Удалить";
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Insert
             // 
@@ -92,6 +95,7 @@
             this.btn_Insert.TabIndex = 37;
             this.btn_Insert.Text = "Добавить";
             this.btn_Insert.UseVisualStyleBackColor = true;
+            this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // label3
             // 
@@ -172,7 +176,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Tarif";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tarif";
+            this.Text = "Тарифы";
+            this.Load += new System.EventHandler(this.Tarif_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

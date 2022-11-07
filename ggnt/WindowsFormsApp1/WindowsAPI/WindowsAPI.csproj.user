@@ -17,5 +17,20 @@
     <Compile Update="DataBaseEditor\Teachers.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EditingMode\EditingModeClasss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditingMode\EditingModeSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditingMode\EditingModeTabel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditingMode\EditingModeTarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditingMode\EditingModeTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

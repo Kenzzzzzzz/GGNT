@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+s+DUE7GdjUeLuFKJ/rW9osA3Q0fQmiB9kjjGAOaOewJjOLyf8thNMEaynSq39RjtyuJPUxLwUYF6vIOdvFgQw==",
+  "dgSpecHash": "qiggS50vuoeIVNmUq4zzchvDF/ukgfvl6OgYGW5yUOPA2xDLYtpziNZRA58pX2ZgEGvQQfK9HlTo9+4Ts7DyhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\79023\\Desktop\\ggnt\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
+  "projectFilePath": "C:\\Users\\79023\\Desktop\\WindowsFormsApp1\\WindowsAPI\\WindowsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79023\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\79023\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.116\\stub.system.data.sqlite.core.netstandard.1.0.116.nupkg.sha512",
